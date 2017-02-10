@@ -42,5 +42,6 @@ $(function(){
     <img src="${img}"/><br/>
     <span>${nickname}</span><br/>
 	<input type="button" value="扫描" id="scan"/><input type="text" id="scanresult"/>
+	Hello,world!
 </body>
 </html>
