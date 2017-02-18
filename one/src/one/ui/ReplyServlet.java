@@ -28,6 +28,7 @@ public class ReplyServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String xml="<xml><ToUserName><![CDATA[oNo3WwySr9EffpZoxKLz0Er4sWj4]]></ToUserName><FromUserName><![CDATA[gh_28b359576381]]></FromUserName><CreateTime>1486347393065</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[嗯:1486347392]]></Content></xml>";
 		// HttpClientUtil.getInstance().sendHttpPost(httpUrl, xml);//url你写不下去，就像服务器无法主动推送给请求方一样，所以被动消息是要即时答复的
+		System.out.println("客户端修改");
 		 System.out.println("sendOk");
 		 System.out.println("say hello");
 		 System.out.println("Today is good day");
