@@ -31,6 +31,7 @@ public class ReplyServlet extends HttpServlet {
 		 System.out.println("sendOk");
 		 System.out.println("say hello");
 		 System.out.println("Today is good day");
+		 System.out.println("服务器端修改");
  }
 
 	/**
