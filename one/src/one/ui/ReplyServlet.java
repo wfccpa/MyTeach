@@ -30,7 +30,8 @@ public class ReplyServlet extends HttpServlet {
 		// HttpClientUtil.getInstance().sendHttpPost(httpUrl, xml);//url你写不下去，就像服务器无法主动推送给请求方一样，所以被动消息是要即时答复的
 		 System.out.println("sendOk");
 		 System.out.println("say hello");
-	}
+		 System.out.println("Today is good day");
+ }
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
